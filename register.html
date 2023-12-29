@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="jkrowlling">
+    <meta name="keywords" content="html, css, javascript">
+    <meta name="description" content="it is a form page">
+    <title>Document</title>
+</head>
+<body>
+    <form action="login page.html" enctype="multipart/form-data" method="post">
+       
+        <fieldset> <legend
+            >Personal Data</legend> <label for="firstname">Firstname</label>
+        <input type="text" id="firstname" size="30" > <br>
+        <label for="lastname">Lastname</label>
+        <input type="text" id="lastname"> <br>
+        <label for="gender">Gender: </label>
+        <label for="gender">male</label>
+        <input type="radio" id="gender" name="gen" >
+        <label for="gend">female</label>
+        <input type="radio" id="gend" name="gen"> </fieldset><br>
+        <label for="date">Enter your D.O.B</label>
+        <input type="date" id="date"> <br>
+        <label for="tim">Enter time</label>
+        <input type="time" id="tim"> <br>
+        <label for="">Enter Week</label>
+        <input type="week">  <br>
+        <label for="">Enter Month</label>
+        <input type="month"> <br>
+        <input type="tel" placeholder="xx-xxxx-xxxx" pattern="[0-9]{10}"><br>
+        <label for="">Enter Username</label>
+        <input type="text" placeholder="Enter Username" pattern="[\w.@#$%]{3,}"> <br>
+        <label for="">Enter Password</label>
+        <input type="text" placeholder="Enter Password" required pattern="[A-Za-z0-9]{4,}"><br>
+        <label>Email</label>
+        <input type="email" placeholder="Enter email"> <br>
+        <input type="checkbox" name="hob[]">Cricket
+        <input type="checkbox" name="hob[]" id="">reading
+        <input type="checkbox" name="hob[]" checked="checked">hockey
+        <br>
+        <br>
+        <label for="cntry">Country</label>
+        <select name="cntry" multiple="2">
+           
+            <option value="Select">Select</option>
+            <option value="india">india</option>
+            <option value="america">america</option>
+            <option value="nepal">nepal</option>
+            <option value="bhutan">bhutan</option>
+        </select>
+        <br>
+        
+        <input type="file"><br><br>
+        <textarea name="" id="" cols="30" rows="10" size="" maxlength="25">Give your feedback</textarea>
+        <br>
+        <input type="submit">
+        <input type="reset">
+    </form>
+</body>
+</html>

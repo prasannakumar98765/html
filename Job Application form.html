@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application</title>
+</head>
+<body>
+    
+    <h1 style="margin-bottom:1cm;">Job Application Form</h1>
+    <hr>
+    <p style="margin-bottom: 1cm;">Thank you for your interest in working with us. Please check below for available job opportunities that meet your criteria and send your application bu filling out the job application form</p>
+`<form>
+    <label>
+        Name <br>
+        <input type="text" placeholder="First"> <input type="text" placeholder="Last" style="margin-bottom: 1cm;">
+    </label>
+    
+    <br>
+    <label for="">Email <br>
+
+        <input type="email" placeholder="john.doe@example.com" style="margin-bottom: 1cm; width: 50%;">
+    </label>
+
+    <br>
+    <p>what position are you applying for?  <span style="margin-left: 3ch;">Available date</span><br>
+        <select id="list" >
+            <option value="S">-Select-</option>
+             <option value="Software Developer">Software Developer</option>
+            <option value="Software Tester">Software Tester</option>
+            <option value="Webpage Designer">Webpage Designer</option>
+            <option value="Database Developer" >Database Developer</option>
+        </select>
+   
+    <input style="margin-left: 15ch;" type="date" placeholder="MM/DD/YYYY" > <br>
+    <p>What is your current employee status?</p>
+    <input  type="radio">
+    <label>Employed
+        
+    </label>
+    <input type="radio">
+    <label>Self-Employed
+       
+    </label> <br>
+    <input type="radio">
+    <label>
+        Unemployed
+        
+    </label>
+    <input type="radio">
+    <label>
+        Student
+       
+
+    </label>
+<div>
+    <p style="margin-top: 1cm;">Please provide your resume link</p>
+    <input type="text" placeholder="https://www.example.com/">
+    <p style="margin-right: 1cm;">Please upload your resume</p>
+    <input type="file" placeholder="Resume">
+</div>
+    <br>
+    <p>Do you have referneces?(optional)</p>
+    <input type="text" placeholder="First"> <input type="text" placeholder="Last"><br>
+    <p>
+        Reference Email
+    </p>
+    <input type="email" placeholder="john.doe@example.com" style="margin-bottom: 2ch;" required><br>
+    <input type="reset"> <button>Apply</button>
+</form>
+
+    
+</body>
+</html>
