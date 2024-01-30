@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1 id="h1d">heading 1</h1>
+    <h2 id="h2">heading 2</h2>
+    <h3 id="h3">head</h3>
+    <p class="p1">paragraph</p>
+
+ <script>
+       document.getElementById("h1d").style.background="blue";
+       let h2=document.getElementById("h2")
+        h2.style.cssText="color:red; background:grey; font-size:12; margin:18px; padding:20px;"
+           let h3=document.getElementById("h3")
+           h3.setAttribute(
+            "style",
+            "color:green; background:blue;"
+           )
+        let p=document.getElementsByClassName("p1")
+        //for(i=0; i<=p.length; i++){
+       // i.style.cssText="color:red; padding:20px;"}
+
+        for(k=0; k<=10; i++){
+            document.write(k)
+        }
+           </script>
+</body>
+</html>

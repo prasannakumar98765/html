@@ -1,0 +1,12 @@
+body{
+    background-image: url("images/Agriculture.jpg");
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-attachment: fixed;
+    background-size: 1400px;
+}
+h1{
+    border: ridge  greenyellow;
+    border-radius: 7px;
+    border-width: 5px 10px 20px 50px;
+}

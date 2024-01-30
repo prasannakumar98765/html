@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p{
+            column-count: 3;
+            text-align: justify;
+            column-gap: 50px;
+            column-rule: solid red 2px ;
+            column-fill: initial;
+        }
+        div ul{
+            background-color: blue;
+            display:flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            list-style: none;
+            align-items: flex-end;
+            padding: 20px;
+            width: 40%;
+            min-height: 10px;
+            border: 2px solid green;
+
+        }
+        li{
+            padding: 20px;
+        }
+        img:hover{
+            
+            /* filter: blur(2px); */
+            filter: drop-shadow(10px 5px 10px rgb(153, 215, 39));
+            filter: grayscale(50%);
+            filter: opacity(50%);
+        }
+        .box{
+            width: 30%;
+            padding: 20px;
+            margin-left: 5%;
+            float: left;
+            box-sizing: border-box;
+        }
+        .box:first-child{
+            margin-left: 0;
+        }
+        .clrearfix:after{
+            content: ".";
+            display: block;
+            height: 0;
+            clear: both;
+            visibility: hidden;
+        }
+    </style>
+</head>
+<body>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam voluptatibus velit fuga pariatur perferendis libero, dignissimos debitis facilis, totam unde laborum repellendus quis aut, sint soluta! Veniam veritatis sint rem.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste cupiditate aperiam facere exercitationem nobis distinctio rem facilis, fuga delectus id vel? Voluptates fuga expedita cumque, quo minima delectus. Eaque, asperiores?
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa repellendus nisi ducimus ipsa alias ipsam atque. Dolores, ipsa reprehenderit aspernatur voluptas iusto delectus tenetur optio fuga temporibus! Sunt, ratione sequi?
+    </p>
+    
+   <div class="box"> <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti voluptatum labore blanditiis perferendis impedit perspiciatis asperiores, voluptatibus fugit. Quia, incidunt perferendis! Animi, in odit! Suscipit esse quae doloremque nisi soluta?</p></div>
+   <div class="box"> <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et consequatur rem eveniet similique vitae, consequuntur asperiores! Repellendus ut, impedit asperiores sunt dolores alias, sint maxime in vero illo, delectus laudantium.</p></div>
+   <div class="box"
+   
+   > <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente animi aperiam, eius non, quas hic commodi modi autem sit iusto nam exercitationem quibusdam atque architecto. Quae eius sit sed ad.</p></div>
+    <div>
+        <H1>My Company</H1>
+        <ul>
+         <li>HOME</li>
+        <li>ABOUT</li>
+        <li>CONTACT</li>
+        <li>SERVICE</li>
+        <li>FEEDBACK</li>
+    </ul>
+    </div>
+    
+    <img src="images/images.jpg" alt="image">
+</body>
+</html>

@@ -1,0 +1,47 @@
+Variables: it is used to store the values
+variableName: variableName sholud always be in camelCase
+
+Datatypes: what type of the value the variable is going to store
+
+there are two types of Datatypes
+1. primitive Datatypes: In primitive data type only one value can be stored
+
+
+2. nonPrimitive Datatypes (it is also known as composite Datatypes): it is called as collection of values
+
+Primitive Datatypes: 
+        1.integer
+        2.float
+        3.long
+        4.double
+        5.string
+        6.boolean
+        7.undefined
+        8.null
+
+non primitive datatypes:
+        1.array: collection of values stored in  a same variable name or single varaible name
+        2.object: collection of values stored in a same object name with different identifier
+            syntax: objectName={
+                key:value,
+                key:value,
+            };
+        3.function:function is used to perform some action in a program
+            syntax: function functionName(){
+                 set of code;
+            }
+
+
+the latest version of java script which we are using is ECMA 6:
+  from this ECMA 6 version we use template literal
+
+  Keywords for storing values:
+        1.var
+        2.let 
+        3.const
+
+block scope:printing the variable defined inside the block
+
+toString
+toUppercase
+toLowerCase

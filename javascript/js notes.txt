@@ -1,0 +1,82 @@
+what is function?
+it is a set of statements that performs a task 
+the statement should be reusable
+there are two types of function
+1. user defined function 
+        it is called as UDF
+        it is also known as custom function or user function
+        it is created and defined by the user to perform a specific task or a set of task
+    syntax: function functionname(){
+                set of statement or function definition
+    }
+    function call: functionname()
+2. pre-defined function
+    pre-defined functions are functions that are build in already embeded in a program
+    Eg: getElementById()
+
+if 
+
+if-else
+
+else-if ladder
+
+nested-if
+
+    logical operators:
+    && operator:
+    true true = true
+    true false =false
+    false true =false
+    false false= false
+
+    || operator:
+    true true = true
+    true false =true
+    false true =true
+    false false= false
+
+    ! operator:
+    true =false
+     false =true
+    
+
+    switchcase:
+
+            switch is used insted of nested if
+    syntax: switch()
+    {
+        case1 val:
+                statement
+        break;
+
+        default:
+                statement
+        break;
+    }
+
+arrow keys: it is used as alternate for function 
+syntax: 
+        ()=>{}
+
+addEventListener
+
+
+
+Local variable:
+in local variable we can use all type of keywords for storing values
+
+global variable:
+in global variable we can only use VAR
+global variable should not use LET
+global variable can be used in multiple functions
+
+while loop
+syntax: while(condition)
+for loop
+for in
+for of
+for each
+map:
+  filter,join
+
+CRUD: Create Read Update Delete

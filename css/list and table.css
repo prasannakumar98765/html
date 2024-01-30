@@ -1,0 +1,66 @@
+div{
+    
+   color: rgb(red, green, blue);
+    border: 3px;
+    outline: 3px;
+    outline-color: blue;
+
+}
+p{
+    color: red;
+    border: 3px;
+    outline: 3px;
+    outline-style: dotted;
+}
+
+#h1{
+    position: relative;
+    /* color: blueviolet; */
+    text-shadow: 5px 5ps 5px rgb(62, 206, 100);
+}
+
+#earth{
+    width: 100px;
+    position: relative;
+    left: 50px;
+    top: 50px;
+    clip-path: circle(50% at 50% 50%);
+}
+
+#translate{
+    width: 30%;
+    transform: translate(200px, 180px);
+    /* -moz-transform: translate(200px, 180px); */
+    /* transform: rotate(50deg); */
+    /* transform: scale(2); */
+    /* transform: skew(10deg, 20deg); */
+    transform: rotate3d(20, 40, 50, 70deg);
+}
+button:hover{
+    background-color: blue;
+    border-radius: solid;
+    border-color: brown;
+
+
+}
+button{
+    background: purple;
+    transition-property: background border;
+    transition-duration: 2s;
+}
+#animi{
+    animation-name: move, next;
+    animation-duration: 1s;
+    width: 50%;
+    position: relative;
+
+
+
+}
+@keyframes move{
+   from{left:0;}
+   to{left:50%}
+}
+@keyframes next{
+    45%{left: -20px;}
+}
