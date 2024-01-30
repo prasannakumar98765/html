@@ -11,6 +11,11 @@
     <h2 id="h2">heading 2</h2>
     <h3 id="h3">head</h3>
     <p class="p1">paragraph</p>
+    <p class="p1">paragraph</p>
+    <p class="p1">paragraph</p>
+    <h3 id="h12">content</h3>
+    <ul><li>li1</li>
+    <li>li2</li></ul>
 
  <script>
        document.getElementById("h1d").style.background="blue";
@@ -21,13 +26,23 @@
             "style",
             "color:green; background:blue;"
            )
-        let p=document.getElementsByClassName("p1")
-        //for(i=0; i<=p.length; i++){
-       // i.style.cssText="color:red; padding:20px;"}
+    //     let p=document.getElementsByClassName("p1")
+    //      for(i=0; i<=p.length; i++){
+    //    p[i].style.cssText="color:red; padding:20px;"
+    //    }
+    
+    
+    // for (let j in p ){
+    //  p[j].style.cssText="color:red; padding:20px;"
+    //    }
+        document.querySelector("#h12").style.background="red"
 
-        for(k=0; k<=10; i++){
-            document.write(k)
+      var car= document.querySelectorAll("ul li")
+        for(var eng in car){
+            car[eng].style.color="blue";
         }
+
+        console.log()
            </script>
 </body>
 </html>

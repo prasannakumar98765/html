@@ -174,6 +174,7 @@ document.body.appendChild(ken);
 
 document.getElementById("dy1").addEventListener("click",()=>{
   let s1=document.createElement("form");
+  s1.setAttribute("action","dom.html")
   s1.setAttribute("method","post");
   s1.setAttribute("enctype","multipart/form-data");
 
@@ -201,7 +202,7 @@ document.getElementById("dy1").addEventListener("click",()=>{
   let inp5=document.createElement("input")
   inp5.setAttribute("type","submit")
   inp5.setAttribute("value","add")
-  inp5.setAttribute("name","click");
+  inp5.setAttribute("name","cli`ck");
   inp5.setAttribute("onclick","getValueUser")
   
   document.body.appendChild(s1);

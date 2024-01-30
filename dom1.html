@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .inforde{
+            background-color: aquamarine;
+            color: red;
+            border-radius: 2px;
+
+
+        }
+        .cla{
+            background-color: black;
+            color: red;
+        }
+        .info{
+            color:aqua;
+            background-color: blue;
+        }
+        .info1{
+            color: burlywood;
+            background-color: sienna;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="h1">headin1</h1>
+    <h1>heading</h1>
+    <p> paragraph1</p>
+    <h2 id="h2">headin 2</h2>
+    <h3 id="h3"> headin3 </h3>
+    <p id="p1">para 2</p>
+
+    <ul><li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    </ul>
+    <script>
+        document.getElementById("h3").addEventListener("mouseover",()=>{
+            document.getElementById("h3").classList.add("inforde")
+        })
+        document.getElementById("h1").addEventListener("mouseenter",()=>{
+            document.getElementById("h1").classList.toggle("cla")
+        })
+    </script>
+    <script src="javscript1/css.js"></script>
+</body>
+</html>
